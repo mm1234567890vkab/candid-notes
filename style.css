@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    width: 100%;
+    height: 400px;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    padding: 100px;
+    font-size: 80px;
+    background-color: rgb(0, 0, 0);
+    color: purple;
+    font-family:cursive;
+}
+
+
+.header{
+    background-color: blanchedalmond;
+    background-size: cover;
+    padding: 8px 12px;
+    height: 50px;
+    margin-top: 0%;
+}
+
+nav li{
+float: left;
+list-style: none;
+padding: 1%;
+}
+
+nav li a{
+    display: inline;
+    text-decoration: underline;
+    padding: 8px 12px;
+    list-style-type: none;
+    margin-left: 5%;
+    font-size: 20px;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+
+nav-links li ul::after{
+ content:"";
+ width:0%;
+ height:2px;
+ background: #f44336;
+ display: inline;
+ margin: auto;
+ transition: 0.9s;
+}
+
+
+nav-links ul li:hover::after{
+    width:100%;
+}
+
+
+body{
+    width: 100%;
+}
+
+
+h2{
+    font-size: 30px;
+    color: #490606;
+    text-align: center;
+    margin-top: 1%;
+    background-color:cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h3{
+    font-size: 20px;
+    color: #490606;
+    text-align: center;
+    margin-top: 1%;
+    background-color:cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.column{
+    margin-top: 5%;
+}
+
+
+ p{
+    font-size: 25px;
+    color: #f44336;
+    text-align: center;
+    background-color: cornsilk ;
+   padding-left: 0%;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+.course{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: cursive;
+    font-size: 30px;
+    color: mediumvioletred;
+}
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject-col{
+    flex-basis: 41%;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.subject-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2)
+}
+
+p{
+    margin-top: 0%;
+   font-size: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #000;
+   }
+   
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p{
+margin-top: 20px;
+font-size: 24px;
+color: rgb(255, 104, 104);
+font-family: cursive;
+}
+
+footer a{
+font-size: 20px;
+text-decoration: none;
+color: #000;
+margin-bottom: 2%;
+padding-bottom: 7%;
+}
+
+
+h5{
+font-size: 30px;
+ font-family: cursive;
+}
+
+
